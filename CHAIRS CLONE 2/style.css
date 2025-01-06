@@ -1,0 +1,496 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #e3e8e4;
+  --primary-color: #363636;
+  --main-font: "Playfair Display SC", serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 40px;
+}
+
+nav ul {
+    margin-top: -120px;
+}
+
+nav button {
+    margin-top: -120px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #363636;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+nav .logo .img img {
+    width: 175px;
+    height: 200px;
+    margin-top: -40px;
+    
+}
+
+.btn-fill {
+    padding: 10px 20px;
+    border: 2px solid #363636;
+    border-radius: 100px;
+    background-color: #363636;
+    color: white;
+    font-size: 14px;
+}
+
+.btn-fill:hover {
+    border: 2px solid #363636;
+    background-color: white;
+    color: #363636;
+    cursor: pointer;
+}
+
+/*Header Start*/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .img-container {
+    width: 500px;
+    height: 500px;
+    background-color: var(--main-color);
+    border-radius: 100%;
+}
+
+header .img-container .img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-image: url(Images/daniil-silantev-1P6AnKDw6S8-unsplash-removebg-preview\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+header .content-container h1 {
+    font-size: 4rem;
+    font-family: var(--main-font);
+    color: rgb(179, 175, 175);
+    margin-bottom: 1rem;
+}
+
+header span {
+    color: #363636;
+}
+
+.primary-headings {
+    font-family: sans-serif;
+    font-weight: lighter;
+    max-width: 500px;
+    margin-bottom: 1rem;
+}
+
+header .content-container .btn-two {
+    margin-left: 20px;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #363636;
+    font-size: 16px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.img-container {
+    position: relative;
+}
+
+header .img {
+    position: absolute;
+}
+
+/*Header End*/
+
+/*Popularity Start*/
+
+.popularity {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 11rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.popularity div {
+    margin-left: 40px;
+}
+
+.popularity h1 {
+    font-size: 3rem;
+    font-family: var(--main-font);
+    color: var(--primary-color);
+}
+
+.popularity p {
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+/*Popularity End*/
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .product .product-img-layer {
+    background: var(--main-color);
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    padding: 20px;
+  }
+  
+  .product .product-img-layer .img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .product .product-img-layer .img-one {
+    background: url(Images/daniil-silantev-1P6AnKDw6S8-unsplash-removebg-preview\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+  }
+  .product .product-img-layer .img-two {
+    background: url(Images/bruno-emmanuelle--MUoHL1XULM-unsplash-removebg-preview\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+  }
+  .product .product-img-layer .img-three {
+    background: url(Images/scott-webb-eD853mTbBA0-unsplash-removebg-preview\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+  }
+
+.categories .content-container h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(179, 175, 175) ;
+}
+.categories .content-container h1 span {
+    color: #363636;
+}
+
+.product-content {
+    width: 240px;
+    height: 100px;
+    background-color: #363636;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-content h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.product-content p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+.b-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    gap: 40px;
+}
+
+.b-container button {
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* Why Choose Us Start */ 
+
+.choose-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.choose-us .img-container {
+    width: 500px;
+    height: 500px;
+    background-color: var(--main-color);
+    border-radius: 100%;
+}
+
+.choose-us .img-container .img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-image: url(Images/scott-webb-eD853mTbBA0-unsplash-removebg-preview\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+.choose-us .main-headings {
+    font-size: 4rem;
+    color: rgb(179, 175, 175) ;
+}
+
+.choose-us span {
+    color: #363636;
+}
+
+.choose-us .primary-headings {
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 1rem;
+}
+
+.cards-content {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.card {
+    width: 175px;
+    height: 150px;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+  }
+  
+
+.choose-us .card-info {
+    max-width: 100px;
+}
+
+.choose-us .card.fill {
+    background-color: #eff0ef;
+}
+
+.choose-us .card h1 {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.choose-us .card p {
+    font-size: 12px;
+}
+
+.star {
+    height: 10px;
+    width: 10px;
+    padding: 15px;
+    border-radius: 100%;
+    background-color: var(--primary-color);
+    position: relative;
+    top: -30px;
+    left: -30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.choose-us .card.fill .card-title {
+    margin-top: -30px;
+}
+/* Why Choose Us End */ 
+
+/* Best Features Start */
+
+.best-features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.best-features .img-container {
+    width: 500px;
+    height: 500px;
+    background-color: var(--main-color);
+    border-radius: 100%;
+}
+
+.best-features .img-container .img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-image: url(Images/bruno-emmanuelle--MUoHL1XULM-unsplash-removebg-preview\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+.best-features .content-container {
+    margin-top: 2rem;
+}
+
+.best-features .content-container .main-headings {
+    font-size: 4rem;
+    color: rgb(179, 175, 175) ;
+    margin-bottom: 1rem;
+}
+
+.best-features .content-container .main-headings span {
+    color: #363636;
+}
+
+.best-features .card {
+    background-color: #eff2ef;
+    width: 175px;
+    height: 150px;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.best-features .card-title {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.best-features .card-info {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+/* Best Features End */
+
+/* Footer Start */
+
+
+footer {
+    background-color: #cacfceed;
+    padding-bottom: 5rem;
+
+}
+
+footer .columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .columns h2 {
+    margin-top: 15rem;
+    font-weight: lighter;
+    font-family: var(--main-font);
+    margin-bottom: 20px;
+    max-width: 300px;
+    color: rgb(70, 70, 70);
+}
+
+footer .columns p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    max-width: 300px;
+    line-height: 25px;
+}
+
+.column-one-newsletter {
+    transform: translateY(35px);
+}
+
+.column-one-newsletter form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.column-one-newsletter i {
+    margin-top: 10px;
+    margin-left: 10px;
+    transform: translateX(-10px);
+}
+
+footer .copyright {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer .copyright span {
+    color: rgb(56, 169, 157);
+}
+
+footer input {
+    background-color: #848d8a;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(54, 57, 57);
+}
+
+footer input::placeholder {
+    transition: color 0.3s ease;
+    color: #363636;
+}
+
+footer input:hover {
+    border: none;
+}
+/* Footer End */
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    background-color: transparent ;
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#21d4fd, #b721ff);
+    border-radius: 100px;
+  }
