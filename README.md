@@ -68,6 +68,14 @@ A functional and stylish login and signup page. Highlights:
 - Focus on usability
 - Animation-enhanced elements
 
+### 9. **Responsive Navigation Menu/Bar**
+
+A dynamic and responsive navigation bar that enhances user experience. Features include:
+
+- Built with HTML, CSS, and JavaScript
+- Mobile-friendly design with a hamburger menu
+- Smooth transitions and hover effects
+
 ---
 
 ## 🛠️ Installation & Usage
@@ -125,6 +133,7 @@ Explore these projects to ignite your creativity and improve your web developmen
 If you found these projects helpful or have suggestions, feel free to:
 
 - ⭐ Star this repository
-- 📝 Submit an issue or feature request
+- 🖍 Submit an issue or feature request
 
 Happy Coding! 💻
+
